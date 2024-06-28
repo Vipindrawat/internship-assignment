@@ -1,0 +1,504 @@
+
+/* main */
+.home_banner_area {
+  z-index: 1;
+  min-height: 900px;
+  position: relative;
+  background: url(group-students-posing-with-notepads.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.home_banner_area .banner_inner {
+  position: absolute;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.primary-btn2 {
+  display: inline-block;
+  background: #002347;
+  padding: 0px 48px;
+  color: #fdc632;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 48px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  outline: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.primary-btn {
+  display: inline-block;
+  background: #fdc632;
+  padding: 0px 54px;
+  color: #002347;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 50px;
+  border-radius: 5px;
+  outline: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  /* margin-left: 16px; */
+}
+
+
+
+@media only screen and (min-width: 398px) {
+  .primary-btn {
+    margin-left: 16px;
+  }
+}
+
+.feature_area {
+  padding-bottom: 100px;
+}
+
+.section_gap_top {
+  padding-top: 130px;
+}
+
+.mainbox {
+  font-size: 60px;
+}
+
+.mainboxcontent {
+  font-size: 18px;
+}
+
+.popular_courses {
+  padding-bottom: 100px;
+}
+
+.single_course .authr_meta img {
+  width: auto !important;
+  display: inline-block !important;
+}
+
+.single_course .course_head {
+  position: relative;
+  overflow: hidden;
+}
+
+.single_course .course_content .tag {
+  padding: 2px 21px;
+  font-size: 13px;
+  color: #fff;
+  background: #002347;
+  text-transform: uppercase;
+}
+
+.popular {
+  font-size: 50px;
+}
+
+.popularheading {
+  font-size: 18px;
+}
+
+
+
+
+/* register now */
+
+
+.registration_area {
+  background: #002347;
+}
+
+.section_gap {
+  padding: 130px 0;
+}
+
+.clock_sec {
+  color: #fff;
+}
+
+.clock_sec .clockinner {
+  background: #334f6c;
+  padding: 35px 20px;
+  margin-right: 15px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  margin-top: 65px;
+}
+
+.register_form {
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.register_form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  padding: 12px;
+}
+
+.register_form .primary-btn {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+/* our expert trainer */
+
+.trainer_area {
+  padding-bottom: 100px;
+}
+
+.single-trainer .thumb {
+  position: relative;
+}
+
+.section_gap_top {
+  padding-top: 130px;
+}
+
+.main_title {
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.single-trainer {
+  margin-bottom: 30px;
+}
+
+.single-trainer .meta-text {
+  box-sizing: border-box;
+  padding: 20px 25px;
+  background: #f3f4f6;
+}
+
+
+.single-trainer .meta-text span {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 991px) {
+  .single-trainer .meta-text {
+    padding: 20px 20px;
+  }
+}
+
+.popularagain {
+  font-size: 50px;
+}
+
+.popularheadingagain {
+  font-size: 18px;
+}
+
+
+/* client saty about me */
+@media only screen and(max-width: 991px) {
+  .client_section_gap {
+    padding: 0 0 70px 0;
+  }
+
+  .main_title {
+    margin-bottom: 40px;
+  }
+}
+
+.client_section_gap {
+  padding: 0 0 130px 0;
+}
+
+.main_title {
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+}
+
+.testi_item img {
+  border-radius: 5px;
+}
+
+.testi_item {
+  padding: 35px 40px;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  margin: 0px 10px 80px;
+  box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 576px) {
+  .online {
+    font-size: 13px;
+  }
+
+  .season {
+    font-size: 20px;
+  }
+
+  .mainbox {
+    font-size: 40px;
+  }
+
+  .mainboxcontent {
+    font-size: 13px;
+  }
+
+  .popular {
+    font-size: 30px;
+  }
+
+  .popularheading {
+    font-size: 13px;
+  }
+
+  .popularagain {
+    font-size: 30px;
+  }
+
+  .popularheadingagain {
+    font-size: 13px;
+  }
+
+  .clock_sec .clockinner {
+    padding: 10px 8px;
+  }
+
+  .feature_area {
+    padding-bottom: 50px;
+  }
+
+  .section_gap_top {
+    padding-top: 70px;
+  }
+
+  .popular_courses {
+    padding-bottom: 50px;
+  }
+
+  .section_gap_top {
+    padding-top: 60px;
+  }
+
+  .trainer_area {
+    padding-bottom: 50px;
+  }
+
+  .section_gap {
+    padding: 60px 0;
+  }
+}
+
+/* footbar */
+
+.footer-area .single-footer-widget .form-wrap {
+  margin-top: 25px;
+}
+
+.footer-area {
+  background: #002347;
+}
+
+.section_gap {
+  padding: 130px 0;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.footer-area .footer-bottom {
+  margin-top: 50px;
+}
+
+.footer-area .footer-bottom .footer-social {
+  text-align: right;
+}
+
+.footer-area .footer-bottom .footer-social a {
+  background: #334f6c;
+  /* width: 20px; */
+  width: 40px;
+  display: inline-table;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-right: #002347 solid 2px;
+}
+
+.footer-area .footer-bottom a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-area .single-footer-widget h4 {
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #002347;
+}
+
+.footer-area .single-footer-widget ul {
+  padding-left: 0;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.footer-area .single-footer-widget ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.footer-area .single-footer-widget h4 {
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.footer-area .single-footer-widget input {
+  height: 40px;
+  border: none;
+  width: 80% !important;
+  font-weight: 300;
+  background: #334f6c;
+  color: #ffffff;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.footer-area .single-footer-widget .click-btn {
+  background: #fdc632;
+  background-size: 200% auto;
+  color: #002347;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 8px 20px;
+  margin-left: 220px;
+  margin-top: -68px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  border: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+div {
+  display: block;
+}
+
+body {
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #7b838a;
+}
